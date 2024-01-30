@@ -1,8 +1,0 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
-}
-.navigation-grocery{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
