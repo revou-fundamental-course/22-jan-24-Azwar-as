@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="all-container">
+        <nav class="navbar">
+            <div class="logo">
+                <p>Turn</p>
+                <p class="logo1">Pix</p>
+            </div>
+
+            <ul class="navigation">
+                <li><a href="">Home</a></li>
+                <li><a href="">Our Package</a></li>
+                <li><a href="">Call us</a></li>
+            </ul>
+        </nav>
+
+        <header class="head-content">
+            <h1>Top Rated E-Groceries Shop in indonesian</h1>
+            <p>Every Day with best ingridients</p>
+        </header>
+
+        <main class="main-content">
+            <div class="left-main">
+                <img src="assets/buah1.png" class="imgSlideShow" alt="slide1">
+                <img src="assets/buah2.jpeg" class="imgSlideShow" alt="slide2">
+                <img src="assets/buah3.jpeg" class="imgSlideShow" alt="slide3">
+                <p>"setiap hari beli buah yang fresh disini"</p>
+                <br><br>
+                <div class="icon-description">
+                    <ul>
+                        <li><img src="assets/placeholder.jpeg" alt=""></li>
+                        <li class="desc">Florence Hughes <br><span class="desc-icon">Ibu Rumah Tangga,28</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="Register">
+
+                <div class="form-content">
+                    <div class="text-form">
+                        <h3>Contact us</h3>
+                        <p>sales akan menghubungi anda 1x24 jam setelah data kami terima</p>
+                    </div>
+                    <label for="usernameInput">Your Name:</label>
+                    <input required type="text" placeholder="First and last name" id="usernameInput">
+                    <p id="nameError" class="error-message"></p>
+
+                    <label for="emailInput">Email:</label>
+                    <input required type="email" id="emailInput" placeholder="example@gmail.com">
+                    <p id="emailError" class="error-message"></p>
+
+                    <label for="fruity">Choose your favorite fruit!</label>
+                    <select name="fruity" id="fruityOption">
+                        <option value="" id="optionError" class="error-message">---Favorite Fruit---</option>
+                        <option value="1">Mangga</option>
+                        <option value="2">Semangka</option>
+                        <option value="3">Durian</option>
+                    </select>
+
+                    <button id="sendButton">SEND</button>
+
+                </div>
+        </main>
+        <div class="our-Package">
+            <h1>OUR PACKAGE</h1>
+
+            <div class="icon-description">
+                <ul>
+                    <li><img src="assets/ourpackage.jpeg" alt=""></li>
+                    <li class="desc"><span class="desc-icon">Your First feature,written in the form of a benefit statement</span></li>
+                </ul>
+                <ul>
+                    <li><img src="assets/ourpackage.jpeg" alt=""></li>
+                    <li class="desc"><span class="desc-icon">Your second feature,written in the form of a benefit statement</span></li>
+                </ul>
+                <ul>
+                    <li><img src="assets/ourpackage.jpeg" alt=""></li>
+                    <li class="desc"><span class="desc-icon">Your third feature,written in the form of a benefit statement</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
